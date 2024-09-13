@@ -162,7 +162,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 10, 100;
+	left-sidebar-size: 20, 100;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
