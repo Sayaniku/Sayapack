@@ -1,7 +1,7 @@
 
 [blocks]
 	#The explosion resistance of explosion resistant blocks.
-	explosionResistance = 12000.0
+	explosionResistance = 1200.0
 	#The speed boost granted by the Dark Steel ladder.
 	darkSteelLadderBoost = 0.15
 

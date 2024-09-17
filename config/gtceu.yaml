@@ -6,7 +6,7 @@ recipes:
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: true
-  disableManualCompression: false
+  disableManualCompression: true
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: false
@@ -27,7 +27,7 @@ recipes:
 
   # Recipes for Buckets, Cauldrons, Hoppers, and Iron Bars require Iron Plates, Rods, and more.
   # Default: true
-  hardIronRecipes: false
+  hardIronRecipes: true
 
   # Whether to make Redstone related recipes harder.
   # Default: false
@@ -43,11 +43,11 @@ recipes:
   hardMiscRecipes: false
 
   # Whether to make Glass related recipes harder. Default: true
-  hardGlassRecipes: false
+  hardGlassRecipes: true
 
   # Whether to nerf the Paper crafting recipe.
   # Default: true
-  nerfPaperCrafting: false
+  nerfPaperCrafting: true
 
   # Recipes for items like Iron Doors, Trapdoors, Anvil require Iron Plates, Rods, and more.
   # Default: false
@@ -59,11 +59,11 @@ recipes:
 
   # Whether to remove charcoal smelting recipes from the vanilla furnace.
   # Default: true
-  harderCharcoalRecipe: false
+  harderCharcoalRecipe: true
 
   # Whether to make the Flint and Steel recipe require steel parts.
   # Default: true.
-  flintAndSteelRequireSteel: false
+  flintAndSteelRequireSteel: true
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
@@ -71,7 +71,7 @@ recipes:
 
   # Whether to remove Vanilla TNT Recipe from the Crafting Table.
   # Default: true
-  removeVanillaTNTRecipe: false
+  removeVanillaTNTRecipe: true
 
   # How many Multiblock Casings to make per craft. Either 1, 2, or 3.
   # Default: 2
@@ -83,7 +83,7 @@ recipes:
 
   # Whether tools should have enchants or not. Like the flint sword getting fire aspect.
   # Default: true
-  enchantedTools: false
+  enchantedTools: true
 
 worldgen:
   # Rubber Tree spawn chance (decimal % per chunk)
@@ -119,11 +119,11 @@ worldgen:
 
     # Prevents regular vanilla ores from being generated outside GregTech ore veins
     # Default: true
-    removeVanillaOreGen: false
+    removeVanillaOreGen: true
 
     # Prevents vanilla's large ore veins from being generated
     # Default: true
-    removeVanillaLargeOreVeins: false
+    removeVanillaLargeOreVeins: true
 
     # Distance between bedrock ore veins in chunks, if enabled.
     # Default: 16
@@ -131,7 +131,7 @@ worldgen:
 
     # Make bedrock ore/fluid veins infinite?
     # Default: false
-    infiniteBedrockOresFluids: true
+    infiniteBedrockOresFluids: false
 
     # Sets the maximum number of chunks that may be cached for ore vein generation.
     # Higher values may improve world generation performance, but at the cost of more RAM usage.
@@ -170,7 +170,7 @@ machines:
   # Whether machines or boilers damage the terrain when they explode.
   # Note machines and boilers always explode when overloaded with power or met with special conditions, regardless of this config.
   # Default: true
-  doesExplosionDamagesTerrain: false
+  doesExplosionDamagesTerrain: true
 
   # Enables Safe Active Transformers, removing their ability to explode if unformed while transmitting/receiving power.
   # Default: false
@@ -228,7 +228,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: true
+  doBedrockOres: false
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
@@ -267,7 +267,7 @@ machines:
   # Default: false
   orderedAssemblyLineFluids: false
 
-  # Let Dual Hatch has more ability.
+  # Let Dual Hatch has more ability. (DEPRECATED: does nothing now)
   # When enabled it, Dual Hatch will can used to assemble line and so on.
   # Need restart Minecraft to apply.
   enableMoreDualHatchAbility: false
@@ -478,7 +478,7 @@ compat:
 
     # Enable GTEU to Platform native (and vice versa) Converters.
     # Default: false
-    enablePlatformConverters: true
+    enablePlatformConverters: false
 
     # Platform native Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.

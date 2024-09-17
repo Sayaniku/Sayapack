@@ -1,6 +1,6 @@
 {
 	// The chance everlasting beef drops when a cow or mooshroom is killed by a player
-	"everlastingBeefChance": 0.01,
+	"everlastingBeefChance": 0.002,
 	// The chance that a skeleton, zombie or piglin spawns with an artifact equipped
 	"entityEquipmentChance": 0.001,
 	// The chance that an artifact generates in suspicious sand or gravel
@@ -15,9 +15,9 @@
 		// The minimum height campsites can spawn at
 		"minY": -60,
 		// The maximum height campsites can spawn at
-		"maxY": 50,
+		"maxY": 40,
 		// Probability that a campsite has a mimic instead of a chest
-		"mimicChance": 0.4,
+		"mimicChance": 0.3,
 		// Whether to use wooden chests from other mods when generating campsites
 		"useModdedChests": true,
 		// Whether campsites can contain blocks that emit light

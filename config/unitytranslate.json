@@ -1,0 +1,33 @@
+{
+    "client": {
+        "openBrowserWithoutPrompt": true,
+        "transcriptBoxes": [
+            {
+                "offsetX": 0,
+                "offsetY": 0,
+                "width": 150,
+                "height": 170,
+                "opacity": 120,
+                "language": "ENGLISH"
+            },
+            {
+                "offsetX": 149,
+                "offsetY": 0,
+                "width": 150,
+                "height": 170,
+                "opacity": 120,
+                "language": "FRENCH"
+            }
+        ],
+        "language": "FRENCH"
+    },
+    "server": {
+        "translatePriority": [
+            "SERVER_CPU",
+            "CLIENT_GPU",
+            "CLIENT_CPU",
+            "OFFLOADED"
+        ],
+        "shouldUseCuda": false
+    }
+}
